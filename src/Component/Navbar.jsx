@@ -4,8 +4,8 @@ const Navbar = () => {
 
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-body-white shadow-sm py-3">
-    <div className="container-fluid gap-2">
+    <nav className="navbar navbar-expand-lg bg-body-white shadow-sm py- ps-">
+    <center className="container-fluid gap-2">
       <a className="navbar-brand ms-5" href="#"><img src="logo.svg" alt="" /></a>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
@@ -28,12 +28,12 @@ const Navbar = () => {
             <a className="nav-link">Resources</a>
           </li>
         </ul>
-        <form className="d-flex me-5 gap-3" role="search">
-          <button className="btn btn-lg btn-outline-dark border" id='signInButt' type="submit">Sign in</button>
-          <button className="btn btn-lg btn-dark border" id='createAccntButt' type="submit">Create free account</button>
+        <form className="px-5 gap-">
+          <button className="col-sm- btn btn-lg btn-outline-dark border" id='signInButt'>Sign in</button>
+          <button className="col-sm- btn btn-lg btn-dark border mx-2 my-2" id='createAccntButt'>Create free account</button>
         </form>
       </div>
-    </div>
+    </center>
   </nav>
   </>
     
