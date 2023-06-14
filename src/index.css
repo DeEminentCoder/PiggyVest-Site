@@ -5,5 +5,16 @@
   font-weight: 500;
 }
 #navbarSupportedContent li{
-  margin-left: 30px;
+  /* margin-left: 30px; */
+}
+
+#signInButt:hover {
+  color: #0D60D8;
+  background-color: rgb(255, 255, 255);
+  transition:ease .8s 0s;
+}
+
+#createAccntButt:hover {
+  background-color: #0D60D8;
+  transition:ease .8s 0s;
 }
