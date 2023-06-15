@@ -6,7 +6,8 @@ import Navbar from './Component/Navbar'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.js'
 import Hero from './Component/Hero'
-import '../font/U8-Bold.otf'
+// import '../font/U8-Black.otf'
+// import '../font/U8-Bold.otf'
 
 function App() {
   const [count, setCount] = useState(0)
